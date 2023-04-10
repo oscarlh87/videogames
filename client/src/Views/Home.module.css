@@ -1,0 +1,49 @@
+.arrowLeft{
+    position: absolute;
+    padding-top: 30vh;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.arrowLeft:hover{
+    position: absolute;
+    padding-top: 30vh;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.arrowRight{
+    position: absolute;
+    right: 30px;
+    padding-top: 30vh;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+.arrowRight:hover{
+    position: absolute;
+    right: 30px;
+    padding-top: 30vh;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.content{
+    height: 97vh;
+    width: 100%;
+    background-image: repeating-linear-gradient(180deg, rgba(227,227,227,0.4), rgba(227,227,227,0.4) 7px, rgba(242,242,242,0.7) 7px, rgba(242,242,242,0.3) 9.6px);
+    display:grid;
+    grid-template-rows:4fr 1fr;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

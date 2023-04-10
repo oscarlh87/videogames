@@ -1,0 +1,73 @@
+.formoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-items: center;
+    transition: 200ms;
+    visibility: hidden;
+    z-index: -1;
+  }
+  
+  .showform {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    transition: 200ms;
+    visibility: visible;
+    z-index: 10;
+  }
+
+  .formcontainer {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    width: 90%;
+    height: 90%;
+    max-width: var(--fixed-width);
+    box-shadow: rgba(79,176,228) 0px 0px 0px 5px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    
+   
+  }
+
+.formcontent{
+display:grid;
+grid-template-columns: 1fr 1fr;
+place-items: center;
+
+}
+
+.formbuttons{
+background-image: repeating-linear-gradient(180deg, rgba(227,227,227,0.4), rgba(227,227,227,0.4) 7px, rgba(242,242,242,0.7) 7px, rgba(242,242,242,0.3) 9.6px);
+width: 100%;
+height: 100%;
+border-bottom-left-radius: 50px;
+border-bottom-right-radius: 50px;
+display:grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+}
+
+.formbuttons button{
+    border: 3px solid rgb(79,176,228);
+    border-radius: 50px;
+    height: 80px;
+    width: 250px;
+    background: radial-gradient(closest-corner at 45px 45px, white, whitesmoke, rgb(220,220,220));
+    box-shadow: 5px 5px 10px rgb(150,150,150);
+}
+
+.formbuttons span{
+  font-size: 30px;
+}

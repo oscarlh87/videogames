@@ -1,0 +1,54 @@
+.menu{
+    background: radial-gradient(circle, rgba(221,221,221,1) 0%, rgba(159,157,157,1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center{
+  display:flex;
+  flex-direction: column;
+}
+
+@font-face{
+  font-family:'DS-Digital';
+  src: url('./DS-DIGI.TTF');
+ }
+
+.pagination{
+ 
+}
+
+.pagination h1{
+    color: rgb(152,152,152);
+    font-size: 48px;
+    font-family: DS-Digital;
+    font-weight: bold;
+    letter-spacing:5px;
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+.search{
+  background-color: red;
+}
+
+.menu button{
+
+  border: 3px solid rgb(79,176,228);
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background: radial-gradient(closest-corner at 45px 45px, white, whitesmoke, rgb(220,220,220));
+  box-shadow: 5px 5px 10px rgb(150,150,150);
+}
+
+
+
+
+
+  
+  
